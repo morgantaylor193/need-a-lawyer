@@ -1,0 +1,21 @@
+@import '../../../sass/variables.scss';
+
+.result {
+    padding: 5vw 1rem;
+    color: $secondaryColor;
+}
+
+.results-title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: $primaryColor;
+}
+
+.sub-info {
+    display: flex;
+}
+
+.sub-item {
+    padding-right: 2.5vw;
+}

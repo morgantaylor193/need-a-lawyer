@@ -25,6 +25,7 @@ import { ErrorComponent } from './containers/error/error.component';
 import { SpecialtyComponent } from './containers/specialty/specialty.component';
 import { rcHero } from './components/rc-hero/hero';
 import { rcButton } from './components/rc-button/button';
+import { rcResultsCard } from './components/rc-results-card/results-card';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { rcButton } from './components/rc-button/button';
     ErrorComponent,
     SpecialtyComponent,
     rcHero,
-    rcButton
+    rcButton,
+    rcResultsCard
   ],
   imports: [
     AppRoutingModule,
